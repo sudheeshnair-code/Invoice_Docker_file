@@ -1,0 +1,14 @@
+dateparser
+opencv-python-headless
+pytesseract
+pdf2image
+pdfplumber
+pillow
+pandas
+openpyxl
+fastapi
+python-multipart
+uvicorn[standard]
+PyMuPDF
+pytest
+httpx
