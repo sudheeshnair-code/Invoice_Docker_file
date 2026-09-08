@@ -1,0 +1,18 @@
+
+
+services:
+
+  ocr:
+
+    build: .
+
+    container_name: invoice-ocr
+
+    ports:
+      - "9000:8000"
+
+    volumes:
+
+      - ./uploads:/app/uploads
+
+      - ./output:/app/output
